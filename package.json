@@ -1,14 +1,12 @@
 {
-  "name": "simple-cdk-stack",
+  "name": "replication-bucket-stack",
   "version": "0.1.0",
-  "bin": {
-    "simple-cdk-stack": "bin/simple-cdk-stack.js"
-  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "cdk deploy"
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
